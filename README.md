@@ -15,7 +15,8 @@ The process for producing the two datasets to be merged consists of the followin
 
 DATA LOADING
 
-All necessary data IS loaded from downloaded data set.
+All necessary data is loaded from downloaded data set.
+
 1.descriptions of measurements into data frame “features”  
 2.ids of “Test” group into data frame “testSubject
 3.ids of “Train” group into data frame “trainSubject
@@ -26,12 +27,12 @@ All necessary data IS loaded from downloaded data set.
 
 CONSTRUCTION OF TRAIN AND TEST  DATA SETS
 
-1.The Test data set is created by binding  “”testSubject”,”testY”,”testX”, data frames into data frame “test”
+1.The Test data set is created by binding  “”testSubject”,”testY”,”testX”, data frames into data frame “test”  
 2.The Train data set is created by binding  ”trainSubject”,”trainY”,”trainX”, data frames into data frame “train”
 
 CONSTRUCTION OF UNIFIED DATA SET AND EXTRACTION OF MEANS AND STD 
 
-1.“test”  and “train” data frames are merged to create one unified data set named “dataSet”
+1.“test”  and “train” data frames are merged to create one unified data set named “dataSet” 
 2.Indices of dataSet variables that contain the string “mean” are storeD in “m_ind”
 3.”m_ind” is used to extract variables containing the string “mean” in their name and store them in data frame “means”
 4.Indices of dataSet variables that contain the string “std” are stored in “s_ind”
