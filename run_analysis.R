@@ -39,4 +39,6 @@
  names(dataSet) <- gsub("[^[:alnum:][:blank:],+?&/\\-]", "", names(dataSet))      #clean variable names from special characters
 
  dataSet2 <- aggregate( dataSet[,3:563], dataSet[,1:2], FUN = mean )              #Create 2nd dataSet, which aggregates per 
-                                                                                  #Subject & activity (columns 1:2) all 																						  
+                                                                                  #Subject & activity (columns 1:2). Mean is calculated 
+										  #for all measurements (columns 3:563).
+										  #--->this answers part 5.
