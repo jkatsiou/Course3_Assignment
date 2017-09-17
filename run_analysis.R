@@ -40,4 +40,4 @@
 
  dataSet2 <- aggregate( dataSet[,3:563], dataSet[,1:2], FUN = mean )    #Create 2nd dataSet, which aggregates per Subject & activity 
  																		                                                     #(columns 1:2) all measurements (columns 3:563).
- 																		                                                     #---> This answers part 5
+ 																		                                                     #---> This answers part 5 
