@@ -18,12 +18,12 @@ DATA LOADING
 All necessary data is loaded from downloaded data set.
 
 1.descriptions of measurements into data frame “features”  
-2.ids of “Test” group into data frame “testSubject
-3.ids of “Train” group into data frame “trainSubject
-4.measurements of “Test” group into data frame “testX”
-5.activities of “Test” group into data frame “testY”
-6.measurements of “Train” group into data frame “trainX”
-7.activities of “Train” group into data frame “trainY”
+2.ids of “Test” group into data frame “testSubject  
+3.ids of “Train” group into data frame “trainSubject  
+4.measurements of “Test” group into data frame “testX”  
+5.activities of “Test” group into data frame “testY”  
+6.measurements of “Train” group into data frame “trainX”  
+7.activities of “Train” group into data frame “trainY”  
 
 CONSTRUCTION OF TRAIN AND TEST  DATA SETS
 
