@@ -6,7 +6,7 @@
  trainSubject <- read.table("./UCI HAR Dataset/train/subject_train.txt")    #read train subjects into R
 
  testX <- read.table("./UCI HAR Dataset/test/X_test.txt")                   #read test measurements into R
- testY <- read.table("./UCI HAR Dataset/test/Y_test.txt")                  	#read test activities into R
+ testY <- read.table("./UCI HAR Dataset/test/Y_test.txt")                   #read test activities into R
   
  trainX <- read.table("./UCI HAR Dataset/train/X_train.txt")                #read train measurements into R
  trainY <- read.table("./UCI HAR Dataset/train/Y_train.txt")                #read train activities into R
