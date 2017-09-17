@@ -22,22 +22,22 @@
 
  m_ind <- grep("mean",features$V2, ignore.case = TRUE, value = FALSE)       #Get the indices of variable names containing the string mean
 
- means <- dataSet[,c(1,2,m_ind+2)]			            					        #Return all rows of dataSet but only the variables (columns) 
- 																			                                          #containing the string mean. ---> this answers part 2 
+ means <- dataSet[,c(1,2,m_ind+2)]                            #Return all rows of dataSet but only the variables (columns) 
+                                                              #containing the string mean. ---> this answers part 2 
 
- s_ind <- grep("std",features$V2, ignore.case = TRUE, value = FALSE)      	#Get the indices of variable names containing the string mean
+ s_ind <- grep("std",features$V2, ignore.case = TRUE, value = FALSE)   #Get the indices of variable names containing the string mean
 
- stds <- dataSet[,c(1,2,s_ind+2)]			            					#Return all rows of dataSet but only the variables (columns) 
- 																			                                 #containing the string mean. ---> This answers part 2
+ stds <- dataSet[,c(1,2,s_ind+2)]                    #Return all rows of dataSet but only the variables (columns) 
+                                                     #containing the string mean. ---> This answers part 2
  
  for (i in 1:6){dataSet$Activity <- gsub(i,activityLabels[i,2],dataSet$Activity)} #Replace Activity codes in "dataSet" with Activity Labels using gsub function
                                                                                   # ---> This answers part 3
 
  names(dataSet) <- c("Subject","Activity",as.character(features$V2))              #naming the variables of "test part" of data set 
- 																			                                                              #---> This answers part 4
+                                                                                  #---> This answers part 4
 
  names(dataSet) <- gsub("[^[:alnum:][:blank:],+?&/\\-]", "", names(dataSet))      #clean variable names from special characters
 
  dataSet2 <- aggregate( dataSet[,3:563], dataSet[,1:2], FUN = mean )    #Create 2nd dataSet, which aggregates per Subject & activity 
- 																		                                                     #(columns 1:2) all measurements (columns 3:563).
- 																		                                                     #---> This answers part 5 
+                                                                        #(columns 1:2) all measurements (columns 3:563).
+                                                                        #---> This answers part 5 
