@@ -32,13 +32,14 @@ CONSTRUCTION OF TRAIN AND TEST  DATA SETS
 
 CONSTRUCTION OF UNIFIED DATA SET AND EXTRACTION OF MEANS AND STD 
 
-1.“test”  and “train” data frames are merged to create one unified data set named “dataSet” 
-2.Indices of dataSet variables that contain the string “mean” are storeD in “m_ind” 
-3.”m_ind” is used to extract variables containing the string “mean” in their name and store them in data frame “means” 
+1.“test”  and “train” data frames are merged to create one unified data set named “dataSet”  
+2.Indices of dataSet variables that contain the string “mean” are storeD in “m_ind”  
+3.”m_ind” is used to extract variables containing the string “mean” in their name and store them in data frame “means”  
 4.Indices of dataSet variables that contain the string “std” are stored in “s_ind” 
-5.”s_ind” is used to extract variables containing the string “std” in their name and store them in data frame “std” 
-6.Activity codes are with activity names 
-7.Variables of "dataSet" are given descriptive names 
+5.”s_ind” is used to extract variables containing the string “std” in their name and store them in data frame “std”  
+6.Activity codes are with activity names  
+7.Variables of "dataSet" are given descriptive names  
+
 
 CREATION OF AGGREGATED DATA SET 
 
