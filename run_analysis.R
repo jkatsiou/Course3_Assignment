@@ -11,7 +11,7 @@
  trainX <- read.table("./UCI HAR Dataset/train/X_train.txt")                #read train measurements into R
  trainY <- read.table("./UCI HAR Dataset/train/Y_train.txt")                #read train activities into R
  
- activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt")		    #read activity labels into R
+ activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt")      #read activity labels into R
 
  test <- cbind(Subject=testSubject$V1,Activity=testY$V1,testX)              #create the 'test' dataset by binding all test info together 
  
