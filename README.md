@@ -1,9 +1,9 @@
 # Course3_Assignment
-The programming Assignment of Course 3 "Getting and Cleaning data
-
-dataSet2.txt contains the tidy dataSet and may be read into r by using the read.table function (headers = TRUE).
+The programming Assignment of Course 3 "Getting and Cleaning data"
 
 The script for the analysis is included in file r_analysis.r. The way it works :
+
+In order for the script to work you should have on your working directory the folder UCI HAR Dataset and its subfolders. 
 
 First it produces a  dataset containing data of “test” group, then  produces a dataset containing data of “train” group and finally merge the two datasets  (append one to the other) resulting in a new unifieddataset.
 
