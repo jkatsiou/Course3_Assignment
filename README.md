@@ -40,7 +40,7 @@ CONSTRUCTION OF UNIFIED DATA SET AND EXTRACTION OF MEANS AND STD
 6.Activity codes are with activity names
 7.Variables of "dataSet" are given descriptive names
 
-CREATION OF AGGREGATED DATA SET
+CREATION OF AGGREGATED DATA SET 
 
 1.Aggregate “dataSet” per subject and activity calculating the mean of measurements . The aggregated dataset is stored in data frame  dataSet2  
  
